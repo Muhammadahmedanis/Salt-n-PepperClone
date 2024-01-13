@@ -1,0 +1,364 @@
+@font-face {
+    font-family: MyFont;
+    src: url(font/Futura\ Black.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+span{
+    font-family: MyFont;
+}
+.navbar{
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 90px;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    margin-top: 12px;
+    font-size: 17px;
+}
+.list-1 li{
+    padding: 15px 30px 0 0;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+/* images */
+.img1{
+    height: 75px;
+    width: 160px;
+}
+.img2{
+    height: 100%;
+    width: 100%;
+}
+.img3{
+    height: 100px;
+    width: 210px;
+    background-color: white;
+    padding: 20px;
+    margin: 0 15px;
+}
+.img4{
+    width: 100%;
+    height: 100%;
+}
+.img5{
+    width: 95%;
+    height: 95%;
+}
+.img6{
+    height: 250px;
+    width: 350px;    
+}
+.img7{
+    width: 100%;
+    height: 100%;
+}
+.img8{
+    margin-top: 20px;
+    height: 25%;
+    width: 16%;
+}
+.img9{
+    width: 100%;
+    height: 100%;
+}
+.img11{
+    width: 140px;
+    height: 40px;
+}
+.img12{
+    height: 70px;
+    width: 130px;
+}
+/* buttons */
+.btn1{
+    padding: 15px 17px 20px;
+    border-radius: 36px;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    margin-top: -15px;
+}
+.btn2{
+    padding: 15px 22px 15px 17px;
+    border-radius: 32px;
+    background-color: #ed1c24;
+    margin-top: -15px;
+    border: none;
+    color: white;
+    margin-left: -22px;
+}
+i{
+    font-size: 22px;
+    vertical-align: middle;
+}
+.btn3{
+    display: block;
+    margin: 15px auto;
+    padding: 16px 45px;
+    background-color: black;
+    color: white;
+    border: 1px solid #424141;
+    border-radius: 29px;
+}
+.btn4{
+    padding: 14px 28px 10px;
+    margin: 42px 5px;
+    border-radius: 34px;
+    border: 1px solid #686565;
+    background-color: rgb(21, 21, 21);
+    color: white;
+    .btn4 i{
+        font-size: 29px;
+        margin-left: 7px;
+    }
+}
+.btn5{
+    margin: 18px 5px;
+    padding: 12px 30px 8px;
+    background-color: black;
+}
+.btn6{
+    background-color: #28a745;
+    border: 1px solid #28a745;
+    padding: 13px 31px 10px 23px;
+    font-size: 16px;
+    margin-top: 35px;
+}
+/* section */
+.div2{
+    background-color: #000000;
+    height: 620px;
+    color: white;
+    text-align: center; 
+}
+h2{
+    padding-top: 60px;
+    font-size: 45px;
+    color: white;
+    text-align: center;
+}
+.para1{
+    color: rgb(164, 161, 161);
+    margin-top: 8px;
+    font-size: 19px;
+    text-align: center;
+}
+.div3{
+    position: absolute;
+    top: 900px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.div4{
+    height: 1300px;
+    background-color: rgb(21, 21, 21);
+}
+/* h2{ */
+/* } */
+.card{
+    margin-top: 37px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.cardsec-2{
+    margin-top: 30px;
+    margin-right: 159px;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+.cardsec-3{
+    margin-right: 100px;
+}
+/* .card1, .card2{
+    border: 2px solid black; 
+    height: 300px;
+     width: 520px;
+} */
+.small{
+    color: red;
+    letter-spacing: 7px;
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h3{
+    margin: 10px 0;
+    font-size: 30px;
+}
+.para2 i{
+    padding-right: 9px;
+    font-size: 17px;
+    color: rgb(175, 172, 172);
+}
+.para2{
+    font-size: 19px;
+    color: rgb(175, 172, 172);
+}
+.div5{
+    background-color: black;
+    height: 1720px;
+}
+.card4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box{
+    height: 450px;
+    width: 350px;
+    /* border: 2px solid white; */
+    margin: 25px 20px;
+    text-align: center;
+}
+.small2{
+    color: red;
+    letter-spacing: 4px;
+    font-size: 12px;
+    margin: 11px 0;
+}
+h4{
+    color: white;
+    font-size: 25px;
+}
+.para3{
+    margin: 9px 0;
+    font-size: 16px;
+}
+.para3 i {
+    padding-right: 5px;
+}
+.div6{
+    height: 630px;
+    background-color: rgb(21, 21, 21);
+}
+
+.card5{
+    display: flex;
+}
+.box1{
+    padding: 90px 20px;
+}
+.box2{
+    /* border: 1px solid white; */
+    width: 46%;
+    height: 400px;
+    margin: 20px 10px;
+}
+.h4{
+    margin: 10px 0;
+}
+
+.div7{
+    background-color: #000000;
+    height: 1350px;
+}
+.card6{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.box3{
+    background-color: white;
+    border-radius: 5px;
+    height: 230px;
+    width: 27%;
+    margin: 20px 10px;
+    text-align: center;
+}
+h5{
+    font-size: 21px;
+    font-weight: normal;
+}
+.h4-2{
+    text-align: center;
+    font-size: 33px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.card7{
+    display: flex;
+    justify-content: center;
+}
+.box4{
+    /* border: 2px solid white; */
+    width: 19%;
+    height: 250px;
+    margin: 18px 10px;
+}
+
+/* Footer */
+.div9{
+    background-color: rgb(21, 21, 21);
+    height: 520px;
+}
+.card8{
+    display: flex;
+    justify-content: center;
+}
+.foot{
+    margin: 80px 10px;
+    margin-bottom: 40px;
+    /* border: 1px solid white; */
+    height: 350px; 
+}
+.foot1{
+    width: 25%;
+}
+.foot2{
+    width: 15%;
+}
+.foot3{
+    width: 25%;
+}
+.foot4{
+    width: 20%;
+}
+h6{
+    margin: 30px 0px 0 15px ;
+    color: white;
+    font-size: 16px;
+}
+.foot-list1 ul{
+    margin-left: 15px;
+    display: block;
+    color: rgb(218, 212, 212);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.foot-list1 li {
+    font-size: 14px;
+}
+.para4 {
+    font-size: 15px;
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.para{
+    margin-top: 25px;
+}
+hr{
+    color: rgb(175, 172, 172);
+    width: 95%;
+    margin: auto;
+    padding: -9px;
+}
+.foot-list2 li{
+    color: rgb(175, 172, 172);
+    margin: 10px 90px;
+    font-size: 15px;
+    color: rgb(175, 172, 172);
+}
+ul .last{
+    margin-left: 657px;
+}
